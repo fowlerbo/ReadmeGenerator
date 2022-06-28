@@ -1,13 +1,9 @@
-// TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-// TODO: Create an array of questions for user input
+const generateMarkdown = require("./utils/generateMarkdown");
+const { createDecipheriv } = require("crypto");
 
 const promptUser = () => {};
-//function to obtain answer from user.
-//ask for the title, description, installation instructions
-//usage instructions, licencse, contribution instructions, tests,
-//github username, emal address.
 return inquirer.prompt([
   {
     type: "input",
@@ -22,32 +18,48 @@ return inquirer.prompt([
   {
     type: "input",
     name: "installationInstructions",
-    message: "What are the instructionsto install your application?",
+    message: "What are the instructionsto install your application?:\n\n",
   },
   {
     type: "input",
     name: "contributionInstructoins",
-    message: "What are the contributors contribution install your application?",
+    message:
+      "What are the contributors contribution install your application?:\n\n",
   },
   {
     type: "list",
     name: "projectLicense",
-    message: "Which license",
+    message: "Which license applies",
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+  },
+  {
+    type: "input",
+    name: "usageInstructions",
+    message: "What are the instruction to use your application",
+  },
+  {
+    type: "input",
+    name: "githubUsername",
+    message: "What is your github?:",
+  },
+  {
+    type: "input",
+    name: "emailAddress",
+    message: "What is your email address?:",
   },
 ]);
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function writeToFile(fileName, data) {}
-
-// Function call to initialize app
-init();
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) => {
+    err ? console.error(err) : console.log("README.md file is created.");
+  });
+}
 
 const init = async () => {
   let userInput = await promptUser();
-  console.log(userInput);
+  let markdownText = generateMarkdown(UserInput);
+  writeToFile("README.md", markdownText);
 };
 
 // Function call to initalize app
