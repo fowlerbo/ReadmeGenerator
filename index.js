@@ -8,7 +8,7 @@ const promptUser = () => {};
 //ask for the title, description, installation instructions
 //usage instructions, licencse, contribution instructions, tests,
 //github username, emal address.
-return inquirer.promt([
+return inquirer.prompt([
   {
     type: "input",
     name: "projectTitle",
