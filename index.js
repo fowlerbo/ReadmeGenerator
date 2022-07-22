@@ -17,7 +17,7 @@ const promptUser = () => {
     {
       type: "input",
       name: "installationInstructions",
-      message: "What are the instructionsto install your application?:\n\n",
+      message: "What are the instructions install your application?:\n\n",
     },
     {
       type: "input",

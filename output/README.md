@@ -1,48 +1,53 @@
 # README-Generator
-  ! [badge-image](https://img.shields.io/static/v1?label=license&message=_README-Generator)&color=green)
 
-  ## Table of Contents
+! [badge-image](https://img.shields.io/static/v1?label=license&message=_README-Generator)&color=green)
 
-  -- [Description](#description)
+## Table of Contents
 
-  -- [Installation](#installation)
+-- [Description](#description)
 
-  -- [Usage](#usage)
+-- [Installation](#installation)
 
-  -- [Testing](#testing)
+-- [Usage](#usage)
 
-  -- [Contribute](#contribute)
+-- [Testing](#testing)
 
-  -- [License](#license)
+-- [Contribute](#contribute)
 
-  -- [Questions](#license)
+-- [License](#license)
 
-  ## Description
-  This app allows developers to create a professional README.md file in a way this is clean, efficient, and easy to use.
+-- [Questions](#license)
 
-  ## Installation
-  {installationInstructions}
-  
-  ## Usage
-  {usageInstruction}
+## Description
 
-  ## Testing
-  {testInstructions}
+This app allows developers to create a professional README.md file in a way this is clean, efficient, and easy to use.
 
-  ## Contribute
-  undefined
+## Installation
 
-  ## License
+To install app, ensure all dependencies are installed.
+
+## Usage
+
+undefined
+
+## Testing
+
+undefined
+
+## Contribute
+
+undefined
+
+## License
 
     This project is licensed under the README-Generator license.
 
     The link to the license is at https://choosealicense.com/licenses/_readme-generator/.
-    
 
-  ## Questions?
-  Any questions or concerns with project please email me or contact via github.
+## Questions?
 
-  Github: https://github.com/{data.githubUser.name}
+Any questions or concerns with project please email me or contact via github.
 
-  Email: fowler1221bryant@gmail.com
-  
+Github: https://github.com/{data.githubUser.name}
+
+Email: fowler1221bryant@gmail.com
