@@ -32,7 +32,7 @@ function renderLicenseSection(license) {
     licenseLink = renderLicenseLink(license);
     return `## License
 
-    This project is licensed under the ${licnecse} license.
+    This project is licensed under the ${license} license.
 
     The link to the license is at ${licenseLink}.
     `;
@@ -42,7 +42,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   let licensebadge = renderLicenseBadge(data.projectTitle);
-  let renderLicenseSection = renderLicenseSection(data.projectTitle);
+  let licenseSection = renderLicenseSection(data.projectTitle);
   return `# ${data.projectTitle}
   ${licensebadge}
 
@@ -66,13 +66,13 @@ function generateMarkdown(data) {
   ${data.projectDescription}
 
   ## Installation
-  ${installationInstructions}
+  ${data.installationInstructions}
   
   ## Usage
-  ${usageInstruction}
+  ${data.usageInstruction}
 
   ## Testing
-  ${testInstructions}
+  ${data.testInstructions}
 
   ## Contribute
   ${data.contributionInstructions}
@@ -82,7 +82,7 @@ function generateMarkdown(data) {
   ## Questions?
   Any questions or concerns with project please email me or contact via github.
 
-  Github: https://github.com/${data.githubUser.name}
+  Github: https://github.com/{data.githubUser.name}
 
   Email: ${data.emailAddress}
   `;
