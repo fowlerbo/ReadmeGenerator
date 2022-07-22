@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./util/generateMarkdown");
 
 const promptUser = () => {
   return inquirer.prompt([

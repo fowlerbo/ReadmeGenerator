@@ -30,7 +30,12 @@ function renderLicenseSection(license) {
     return "";
   } else {
     licenseLink = renderLicenseLink(license);
-    return `## License`;
+    return `## License
+
+    This project is licensed under the ${licnecse} license.
+
+    The link to the license is at ${licenseLink}.
+    `;
   }
 }
 
