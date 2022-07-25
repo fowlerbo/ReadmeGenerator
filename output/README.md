@@ -20,7 +20,7 @@
 
 ## Description
 
-This app allows developers to create a professional README.md file in a way this is clean, efficient, and easy to use.
+This app allow developers to create a professional README.md file in a way that is clean, efficient, and easy to use.
 
 ## Installation
 
@@ -28,7 +28,7 @@ To install app, ensure all dependencies are installed.
 
 ## Usage
 
-undefined
+Run node index.js in command line.
 
 ## Testing
 

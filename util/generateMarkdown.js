@@ -69,7 +69,7 @@ function generateMarkdown(data) {
   ${data.installationInstructions}
   
   ## Usage
-  ${data.usageInstruction}
+  ${data.usageInstructions}
 
   ## Testing
   ${data.testInstructions}
