@@ -28,7 +28,7 @@ To install app, ensure all dependencies are installed.
 
 ## Usage
 
-Run node index.js in command line.
+Run node index.js
 
 ## Testing
 
@@ -51,3 +51,4 @@ Any questions or concerns with project please email me or contact via github.
 Github: https://github.com/{data.githubUser.name}
 
 Email: fowler1221bryant@gmail.com
+https://github.com/fowlerbo
