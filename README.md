@@ -32,11 +32,11 @@ Run node index.js in command line.
 
 ## Testing
 
-undefined
+run node index.js
 
 ## Contribute
 
-undefined
+Contributors may clone this repository and make modifications to this project. Please make all changes in your own github branch and create a pull request if you'd like to merge.
 
 ## License
 
